@@ -25,6 +25,10 @@ class User extends Model {
     return this;
   }
 
+  static associante(models) {
+    this.belongsTo(models.File,{foreignKey: "avatar_id", as : "avatar"})
+  }
+
   cheackPassword(password) {
     return bcrypt.compare(password, this.password_hash);
   }
