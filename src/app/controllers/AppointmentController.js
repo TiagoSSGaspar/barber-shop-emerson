@@ -54,6 +54,10 @@ class AppointmentController {
       return res.status(401).json({ error: "You can only create appointment with providers" });
     }
 
+    if(checkIsProvider.id === req.userId){
+      return res.status(401).json({ error: "you don't schedule with yourself" });
+    }
+
     const hourStart = startOfHour(parseISO(date));
 
     if (isBefore(hourStart, new Date())) {
