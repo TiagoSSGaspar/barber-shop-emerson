@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b4fca6-75de-4644-9fe2-d80cc4246f63" name="Default Changelist" comment="schedule service...">
-      <change afterPath="$PROJECT_DIR$/src/app/controllers/NotificationController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/controllers/AppointmentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controllers/AppointmentController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/controllers/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controllers/UserController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/controllers/NotificationController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controllers/NotificationController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +88,7 @@
       <workItem from="1583674186303" duration="4213000" />
       <workItem from="1583973555115" duration="4160000" />
       <workItem from="1584063183743" duration="2255000" />
-      <workItem from="1584219072070" duration="6799000" />
+      <workItem from="1584219072070" duration="8071000" />
     </task>
     <servers />
   </component>
