@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b4fca6-75de-4644-9fe2-d80cc4246f63" name="Default Changelist" comment="schedule service...">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/controllers/AppointmentController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/controllers/FileController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/controllers/ProviderController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/controllers/ScheduleController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/models/Appointment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/models/File.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/multer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/migrations/20200303005502-create-files.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/migrations/20200303011735-add-avatar-field-to-users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/migrations/20200308004636-create-appointments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/uploads/617b832b0b3987a7950b3fed63650e6a.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/uploads/8ee7af455c754ce45e5172e86a6cab10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/schemas/Notification.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/migrations/20200210203011-create-users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/20200210203011-create-users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/controllers/AppointmentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controllers/AppointmentController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +87,8 @@
       <workItem from="1583621236594" duration="7444000" />
       <workItem from="1583674186303" duration="4213000" />
       <workItem from="1583973555115" duration="4160000" />
+      <workItem from="1584063183743" duration="2255000" />
+      <workItem from="1584219072070" duration="247000" />
     </task>
     <servers />
   </component>
@@ -133,33 +117,42 @@
       <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state x="161" y="23" key="CommitChangelistDialog2/0.23.1280.740@0.23.1280.740" timestamp="1583974716575" />
-    <state width="1259" height="166" key="GridCell.Tab.0.bottom" timestamp="1583978255403">
+    <state width="1259" height="166" key="GridCell.Tab.0.bottom" timestamp="1584219627685">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state width="1249" height="155" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1581467720355" />
-    <state width="1259" height="166" key="GridCell.Tab.0.bottom/0.23.1280.740@0.23.1280.740" timestamp="1583978255403" />
-    <state width="1259" height="166" key="GridCell.Tab.0.center" timestamp="1583978255402">
+    <state width="1259" height="166" key="GridCell.Tab.0.bottom/0.23.1280.740@0.23.1280.740" timestamp="1584219627685" />
+    <state width="1259" height="166" key="GridCell.Tab.0.center" timestamp="1584219627684">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state width="1249" height="155" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1581467720352" />
-    <state width="1259" height="166" key="GridCell.Tab.0.center/0.23.1280.740@0.23.1280.740" timestamp="1583978255402" />
-    <state width="1259" height="166" key="GridCell.Tab.0.left" timestamp="1583978255402">
+    <state width="1259" height="166" key="GridCell.Tab.0.center/0.23.1280.740@0.23.1280.740" timestamp="1584219627684" />
+    <state width="1259" height="166" key="GridCell.Tab.0.left" timestamp="1584219627683">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state width="1249" height="155" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1581467720350" />
-    <state width="1259" height="166" key="GridCell.Tab.0.left/0.23.1280.740@0.23.1280.740" timestamp="1583978255402" />
-    <state width="1259" height="166" key="GridCell.Tab.0.right" timestamp="1583978255403">
+    <state width="1259" height="166" key="GridCell.Tab.0.left/0.23.1280.740@0.23.1280.740" timestamp="1584219627683" />
+    <state width="1259" height="166" key="GridCell.Tab.0.right" timestamp="1584219627685">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state width="1249" height="155" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1581467720353" />
-    <state width="1259" height="166" key="GridCell.Tab.0.right/0.23.1280.740@0.23.1280.740" timestamp="1583978255403" />
-    <state x="136" y="23" key="SettingsEditor" timestamp="1581363443569">
-      <screen x="0" y="23" width="1280" height="724" />
+    <state width="1259" height="166" key="GridCell.Tab.0.right/0.23.1280.740@0.23.1280.740" timestamp="1584219627685" />
+    <state x="136" y="23" key="SettingsEditor" timestamp="1584066047219">
+      <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state x="136" y="23" key="SettingsEditor/0.23.1280.724@0.23.1280.724" timestamp="1581363443569" />
+    <state x="136" y="23" key="SettingsEditor/0.23.1280.740@0.23.1280.740" timestamp="1584066047219" />
+    <state width="533" height="445" key="SwitcherDM" timestamp="1584064713048">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state width="533" height="445" key="SwitcherDM/0.23.1280.740@0.23.1280.740" timestamp="1584064713048" />
     <state x="422" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583974596272">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state x="422" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.740@0.23.1280.740" timestamp="1583974596272" />
+    <state x="305" y="87" width="670" height="676" key="search.everywhere.popup" timestamp="1584063756915">
+      <screen x="0" y="23" width="1280" height="740" />
+    </state>
+    <state x="305" y="87" width="670" height="676" key="search.everywhere.popup/0.23.1280.740@0.23.1280.740" timestamp="1584063756915" />
   </component>
 </project>
