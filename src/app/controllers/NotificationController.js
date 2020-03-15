@@ -25,6 +25,7 @@ class NotificationController {
 
     return res.json(notification);
   }
+  
 }
 
 export default new NotificationController();
