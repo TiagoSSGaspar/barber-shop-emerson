@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b4fca6-75de-4644-9fe2-d80cc4246f63" name="Default Changelist" comment="schedule service...">
-      <change afterPath="$PROJECT_DIR$/src/config/mail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/Mail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/views/emails/cancellation.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/views/emails/layouts/default.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/views/emails/partials/footer.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/controllers/AppointmentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controllers/AppointmentController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/mail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Mail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.15.0" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,6 +57,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/views/emails" />
+      <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -91,7 +98,9 @@
       <workItem from="1583674186303" duration="4213000" />
       <workItem from="1583973555115" duration="4160000" />
       <workItem from="1584063183743" duration="2255000" />
-      <workItem from="1584219072070" duration="12324000" />
+      <workItem from="1584219072070" duration="12511000" />
+      <workItem from="1584368086137" duration="8698000" />
+      <workItem from="1584379043779" duration="3947000" />
     </task>
     <servers />
   </component>
@@ -124,26 +133,26 @@
       <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state x="161" y="23" key="CommitChangelistDialog2/0.23.1280.740@0.23.1280.740" timestamp="1583974716575" />
-    <state width="1259" height="166" key="GridCell.Tab.0.bottom" timestamp="1584230409781">
+    <state width="1259" height="187" key="GridCell.Tab.0.bottom" timestamp="1584387340949">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state width="1249" height="155" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1581467720355" />
-    <state width="1259" height="166" key="GridCell.Tab.0.bottom/0.23.1280.740@0.23.1280.740" timestamp="1584230409781" />
-    <state width="1259" height="166" key="GridCell.Tab.0.center" timestamp="1584230409781">
+    <state width="1259" height="187" key="GridCell.Tab.0.bottom/0.23.1280.740@0.23.1280.740" timestamp="1584387340949" />
+    <state width="1259" height="187" key="GridCell.Tab.0.center" timestamp="1584387340948">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state width="1249" height="155" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1581467720352" />
-    <state width="1259" height="166" key="GridCell.Tab.0.center/0.23.1280.740@0.23.1280.740" timestamp="1584230409781" />
-    <state width="1259" height="166" key="GridCell.Tab.0.left" timestamp="1584230409780">
+    <state width="1259" height="187" key="GridCell.Tab.0.center/0.23.1280.740@0.23.1280.740" timestamp="1584387340948" />
+    <state width="1259" height="187" key="GridCell.Tab.0.left" timestamp="1584387340947">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state width="1249" height="155" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1581467720350" />
-    <state width="1259" height="166" key="GridCell.Tab.0.left/0.23.1280.740@0.23.1280.740" timestamp="1584230409780" />
-    <state width="1259" height="166" key="GridCell.Tab.0.right" timestamp="1584230409781">
+    <state width="1259" height="187" key="GridCell.Tab.0.left/0.23.1280.740@0.23.1280.740" timestamp="1584387340947" />
+    <state width="1259" height="187" key="GridCell.Tab.0.right" timestamp="1584387340948">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
     <state width="1249" height="155" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1581467720353" />
-    <state width="1259" height="166" key="GridCell.Tab.0.right/0.23.1280.740@0.23.1280.740" timestamp="1584230409781" />
+    <state width="1259" height="187" key="GridCell.Tab.0.right/0.23.1280.740@0.23.1280.740" timestamp="1584387340948" />
     <state x="136" y="23" key="SettingsEditor" timestamp="1584066047219">
       <screen x="0" y="23" width="1280" height="740" />
     </state>
